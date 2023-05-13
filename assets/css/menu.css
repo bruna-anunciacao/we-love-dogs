@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-menu {
+    height: 120px;
+    background: #FFFFFF;
+}
+
+.menu-spacing {
+    display: flex;
+    height: 120px;
+    margin: 0 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-spacing h1, .menu-spacing h1 span {
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+
+.menu-spacing h1 span {
+    color: #7ED321;
+}
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links ul button {
+    border-radius: 15px;
+    width: 151px;
+    height: 40px;
+    border: 0;
+    background: rgba(126, 211, 33, 0.4);
+    color: #1C4701;
+    padding: 9px 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#botao-cor {
+    background: #7ED321;
+}
+
+.home-texts{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 35px;
+}

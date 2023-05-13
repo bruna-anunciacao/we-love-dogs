@@ -1,0 +1,38 @@
+.home-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-main img {
+    max-width: 640px;
+    max-height: 480px;
+    margin: 30px 200px 0 29px;
+    
+}
+
+.home-text {
+    font-size: 48px;
+    width: 340px;
+    margin: 87px 0 0 200px;
+    line-height: 65px;
+}
+
+.home-text p {
+    width: 340px;
+    height: 234px;
+    margin-bottom: 25px;
+}
+
+.home-main a button {
+    width: 220px;
+    height: 51px;
+    background: #7ED321;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #1C4701;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: bold;
+}

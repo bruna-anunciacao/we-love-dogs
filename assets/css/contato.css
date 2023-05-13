@@ -1,0 +1,77 @@
+.contato-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-main h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.contato-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contato-form {
+    padding-top: 37px;
+}
+
+.contato-form div {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+.contato-form label {
+    display: inline-block;
+    width: 124px;
+    height: 50px;
+    font-size: 18px;
+    margin-right: 14px;
+    text-align: center;
+}
+
+.contato-form input {
+    width: 419px;
+    height: 43px;
+    border: 1px solid #9f9f9f;
+    border-radius: 7px;
+    padding-left: 13px;
+}
+
+.contato-form textarea {
+    width: 418px;
+    height: 160px;
+    resize: none;
+    border-radius: 7px;
+    border: 1px solid #9f9f9f;
+    padding: 12px 0 0 13px;
+
+}
+
+.contato-form ::placeholder {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    color: #9F9F9F;
+    text-align:start;
+    align-self: center;
+}
+
+.contato-form button {
+    width: 141px;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    background: #7ED321;
+    color: #1C4701;
+    font-size: 16px;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: bold;
+}

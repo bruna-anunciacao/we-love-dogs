@@ -1,0 +1,34 @@
+.quem-somos-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quem-somos-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quem-somos-text h1 {
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 14px;
+}
+
+.quem-somos-text p {
+    width: 687px;
+    height: 176px;
+    font-size: 16px;
+    text-align: justify;
+    font-style: normal;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.quem-somos-main img {
+    max-width: 354px;
+    max-height: 266px;
+}
